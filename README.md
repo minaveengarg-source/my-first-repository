@@ -30,7 +30,7 @@ A collection of **19 beginner-to-intermediate React projects** built with functi
 | 17 | [News App](#17-news-app) | Anthropic AI API, category filters, pagination |
 | 18 | [Random User Generator](#18-random-user-generator) | Anthropic AI API, card generation |
 | 19 | [Random User Generator (styled)](#18-random-user-generator) | Google Fonts, dark theme, DM Sans |
-| 20 | [Chat App](#20-chat-app) | `useState`, `useEffect`, `useRef` | ChatApp |
+| 20 | [Chat App](#20-chat-app) | `useState`, `useEffect`, `useRef`, auto-scroll |
 ---
  
 ## 🚀 Getting Started
@@ -253,6 +253,7 @@ inline SVG icons.
  
 | Concept | Projects |
 |---------|---------|
+| `useRef` | ChatApp |
 | `useState` | All projects |
 | `useEffect` | TodoApp, SimpleForm, ThemeToggle, WeatherApp, QuizApp, NewsApp |
 | `useCallback` | QuizApp, MovieSearchApp, NewsApp |
