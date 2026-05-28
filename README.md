@@ -30,7 +30,7 @@ A collection of **19 beginner-to-intermediate React projects** built with functi
 | 17 | [News App](#17-news-app) | Anthropic AI API, category filters, pagination |
 | 18 | [Random User Generator](#18-random-user-generator) | Anthropic AI API, card generation |
 | 19 | [Random User Generator (styled)](#18-random-user-generator) | Google Fonts, dark theme, DM Sans |
- 
+| 20 | [Chat App](#20-chat-app) | `useState`, `useEffect`, `useRef` | ChatApp |
 ---
  
 ## 🚀 Getting Started
@@ -228,7 +228,17 @@ Generates random user profiles (name, age, job, location, bio, skills) via the A
 **Concepts:** Anthropic API, Google Fonts (`DM Sans`), dark theme, card layout.
  
 ---
- 
+
+### 20. Chat App
+**File:** `ChatApp.jsx`
+
+A real-time chat UI where you can switch between users (You, Rahul, Priya, Aman)
+and send messages. Each user gets a unique colour-coded avatar and bubble.
+Messages auto-scroll to the bottom on arrival. Send button disables when input
+is empty. Press **Enter** to send.
+
+**Concepts:** `useState`, `useEffect`, `useRef`, auto-scroll, conditional styling,
+inline SVG icons.
 ## 🛠️ Tech Stack
  
 - **React** (functional components + Hooks)
