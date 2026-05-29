@@ -31,6 +31,7 @@ A collection of **19 beginner-to-intermediate React projects** built with functi
 | 18 | [Random User Generator](#18-random-user-generator) | Anthropic AI API, card generation |
 | 19 | [Random User Generator (styled)](#18-random-user-generator) | Google Fonts, dark theme, DM Sans |
 | 20 | [Chat App](#20-chat-app) | `useState`, `useEffect`, `useRef`, auto-scroll |
+| 21 | [Capstone App](#21-capstone-app) | state-based routing, multi-page, localStorage |
 ---
  
 ## 🚀 Getting Started
@@ -247,9 +248,27 @@ inline SVG icons.
 - **OpenWeatherMap API** — WeatherApp only
 - **GitHub REST API** — GitHubUserFinder only
 - **Anthropic Claude API** — MovieSearchApp, NewsApp, RandomUserGenerator
+
 ---
- 
+
+### 21. Capstone App
+**File:** `CapstoneApp.jsx`
+
+A full multi-page capstone project combining four mini-apps in one:
+
+- **Dashboard** — overview cards that navigate to Tasks and Notes
+- **Task Manager** — add and delete tasks, persisted in `localStorage`
+- **Notes App** — sticky-note style cards with colour cycling and `localStorage` persistence
+- **Profile** — editable name and email fields with a save confirmation banner
+
+Navigation is handled via state-based routing (no `react-router-dom`).
+All icons are inline SVGs (no `react-icons` required).
+
+**Concepts:** `useState`, `useEffect`, `localStorage`, state-based routing,
+multi-component architecture, inline SVG icons, conditional rendering.
 ## 📚 React Concepts Index
+
+---
  
 | Concept | Projects |
 |---------|---------|
@@ -264,7 +283,9 @@ inline SVG icons.
 | Form validation | SimpleForm, ContactFormWithValidation |
 | State-based routing | BlogApp |
 | Filters & search | BlogApp, AdminDashboard, AdvancedTodo, ShoppingListManager |
- 
+| State-based routing  | BlogApp, CapstoneApp |
+| localStorage         | TodoApp, SimpleForm, ThemeToggle, CartApp, CapstoneApp |
+| Props & components   | UserProfileCard, AdminDashboard, BlogApp, CartApp, CapstoneApp |
 ---
  
 ## 📄 License
